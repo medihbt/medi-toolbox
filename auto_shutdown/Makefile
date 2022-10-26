@@ -1,6 +1,6 @@
 CC=gcc
-SRC=auto_shutdown.c
-OBJ=auto_shutdown
+SRC=auto-shutdown.c
+OBJ=auto-shutdown
 
 $(OBJ):$(SRC)
 	$(CC) $(SRC) -o $(OBJ)
